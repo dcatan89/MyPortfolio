@@ -1,6 +1,7 @@
-.welcome {
-  font-size: large;
-  color: blue;
-  display:flex;
-  justify-content: center;
+.row {
+display: flex;
+}
+
+.col-half {
+  width: 50%;
 }
