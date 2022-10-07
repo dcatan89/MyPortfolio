@@ -5,3 +5,20 @@ display: flex;
 .col-half {
   width: 50%;
 }
+
+.col-full {
+  width: 100%;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+ul {
+  color: white;
+  list-style-type: none;
+}
+
+.nav {
+  justify-content: center;
+}
