@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/682add863b.js" crossorigin="anonymous"></script>
+  <link href="/css/tailwind.css" rel="stylesheet" />
+  <title>Tailwind Practice</title>
+</head>
+<body class="font-sans bg-gray-100 ">
+  <div data-cy="consumer-info-section" class="container mx-auto">
+    <div class="mt-2 max-w-xs">
+      <div class="grid grid-cols-3">
+        <div class="text-gray-800 col-span-2">
+          <h1 data-cy="consumer-name" class="font-bold tracking-wide">John Smith</h1>
+          <p data-cy="consumer-Sold-ID" class="text-[10px] uppercase font-semibold">SOLD ID: 1234</p>
+        </div>
+        <div class=" col-span-1 border bg-slate-50 border-gray-300 rounded-full h-7 w-7">
+          <div class="w-full ">
+            <button data-cy="consumer-edit-btn" class="w-full h-full">
+              <i class=" fa-solid fa-pencil text-[12px] text-gray-800"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="w-w-1\/2">
+        <ul data-cy="consumer-info" class="mt-2 space-y-3 text-gray-500 text-xs font-semibold">
+          <li>Email: <span class=" text-gray-800">js@emailaddress.com</span></li>
+          <li>Phone: <span class=" text-gray-800">555-555-5555</span></li>
+          <li>Medium CTA: <span class=" text-gray-800">Cash Offer </span></li>
+          <li>Status: <span class=" text-gray-800">Lead</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
